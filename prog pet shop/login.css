@@ -1,0 +1,46 @@
+#container{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 500px;
+    height: 120px;
+    margin: auto;
+    box-shadow: 0px 0px 10px #809671;
+    padding: 100px;
+    box-sizing: border-box;
+    background-color: #809671;
+    text-align: center;
+}
+.linha{
+    clear: both;
+}
+.column-3 {    
+    width: 10%;    
+}
+
+.column-9 {    
+    width: 75%;    
+}       
+
+.label {
+    padding-top: 7px;
+    text-align: right;    
+}
+
+.label:after {
+    padding-right: 5px;
+}
+
+.column {
+    float: left;
+    height: 41px;    
+}
+
+.input input {
+    width: 100%;
+    height: 34px;    
+    padding-left: 5px;
+    box-sizing: border-box;
+}
