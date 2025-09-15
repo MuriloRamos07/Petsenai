@@ -87,3 +87,18 @@ h2{
     margin-left: 200px;
     background-color:  rgba(238, 235, 235, 0.705);
 }
+.imagens-home {
+    display: flex;
+    gap: 90px;
+    margin: 20px 0px 20px 0px;
+  }
+.imgens-gatos{
+    display: flex;
+    gap: 90px;
+    margin: 20px 0px 20px 0px;
+}
+.imgens-cachorros{
+    display: flex;
+    gap: 90px;
+    margin: 30px 0px 30px 0px;
+}
