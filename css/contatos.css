@@ -15,7 +15,7 @@
 .cor-contato {
     background-color: hsl(0, 0%, 28%);
     margin: 16px;
-    color: whitesmoke;
+    color: #FFFFFF;
     text-align: center;
     padding-left: 60px;
     padding-right: 60px;
@@ -143,4 +143,15 @@
     text-align: end;
     width: 59%;
     margin: 0 auto 0 0;
+}
+@font-face {
+    font-family: 'AlfaSlabOne-Regular';
+    src: url(./fonts/Alfa_Slab_One/AlfaSlabOne-Regular.ttf);
+}
+.fonte{
+    font-family: 'AlfaSlabOne-Regular';
+}
+.fonte-form{
+    font-family: 'AlfaSlabOne-Regular';
+    font-size: 13px;
 }
