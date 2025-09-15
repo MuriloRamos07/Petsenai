@@ -1,0 +1,25 @@
+.menu-superior{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 50px;
+    color: whitesmoke;
+}
+.menu-superior ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu-superior ul li{
+    display: inline-block;
+    position: 240px;
+    line-height: 50px;
+    margin-left: 150px;
+    padding: 0px 90px 0px 60px;
+}
+.menu-superior ul li:hover{
+    display: inline-block;
+    position: 240px;
+    line-height: 50px;
+    margin-left: 150px;
+    background-color: rgba(221, 210, 210, 0.633);
+}
