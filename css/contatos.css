@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.cor-fundo {
+    background-color: #E5E0D8;
+}
+
+.titulo-contato {
+    display: flex;
+    justify-content: center;
+}
+
+.cor-contato {
+    background-color: hsl(0, 0%, 28%);
+    margin: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+/*Inicio Cabeçalho*/
+.cabecalho {
+    width: 100%;
+    /*Largura de 100%*/
+    height: 200px;
+    /*Altura de 250 pixels*/
+    background-color: #809671;
+    /*Cor de fundo*/
+}
+
+/*Fim cabeçalho*/
+/*Inicio Superior*/
+.menu-superior {
+    width: 100%;
+    height: 50px;
+    background-color: whitesmoke;
+    color: whitesmoke;
+}
+
+.menu-superior ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-superior ul li {
+    display: inline-block;
+    position: relative;
+    line-height: 50px;
+    margin-left: 180px;
+    padding: 0px 10px 0px 10px
+}
+
+.menu-superior ul li:hover {
+    display: inline-block;
+    position: relative;
+    line-height: 50px;
+    margin-left: 180px;
+    background-color: rgba(221, 210, 210, 0.633);
+}
+
+/*Fim do menu superior*/
+
+
+.entre-em-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.entre-em-contato label {
+    font-weight: bolder;
+    color: #809671;
+    margin-left: 0px 5px 0px 10px
+}
+
+.entre-em-contato input,
+.entre-em-contato textarea {
+    width: 500px;
+    height: 30px;
+    margin-bottom: 10px;
+    border: 3px solid;
+    border-color: #809671;
+    background-color: #809671;
+    padding: 2px 5px 2px 5px;
+}
+
+.icone-cor {
+    color: #809671
+}
+
+.icone-cor:hover {
+    color: #809671;
+}
+
+.body {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.label {
+    padding-top: 10px;
+    text-align: right;
+}
+
+.input{
+    width: 30%;
+    height: 50px;
+    margin: 3px;
+    text-align: inherit;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.label:after {
+    padding-right: 10px;
+}
+
+.form-esquerda {
+    text-align: left;
+    width: 80%;
+    margin: 0 auto 0 0;
+}
+.enviar{
+    width: 70px;
+    height: 35px;
+    margin-top: 10px;
+    background-color: #809671;
+    border-color: #809671;
+    color: #FFFFFF;
+}
+.form-esquerda-botao {
+    text-align: end;
+    width: 59%;
+    margin: 0 auto 0 0;
+}
+@font-face {
+    font-family: 'AlfaSlabOne-Regular';
+    src: url(./fonts/Alfa_Slab_One/AlfaSlabOne-Regular.ttf);
+}
+.fonte{
+    font-family: 'AlfaSlabOne-Regular';
+}
+.fonte-form{
+    font-family: 'AlfaSlabOne-Regular';
+    font-size: 13px;
+}
