@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tp-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Contatos HTML5">
+    <meta name="keywords" contet="Página contatos, HTML">
+    <meta name="author" content="Murilo Ramos">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contatos.css">
+    <title>Contatos</title>
+</head>
+
+<body class="cor-fundo">
+    <header class="cabecalho"></header>
+    <nav class="menu-superior">
+        <ul>
+            <li><a href="#Home">HOME</a></li>
+            <li><a href="#Serviços">SERVIÇOS</a></li>
+            <li><a href="#Galeria">GALERIA</a></li>
+            <li><a href="#Contato">ENTRE EM CONTATO</a></li>
+        </ul>
+    </nav>
+    <div class="titulo-contato">
+        <h1 class="cor-contato">Entre em contato conosco:</h1>
+    </div>
+
+    <form class="entre-em-contato form-esquerda" action="http://localhost/post.php" method="POST" target="_blank">
+
+        <div class="input">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="Nome" placeholder="Seu nome completo" required>
+        </div>
+
+        <div class="input">
+            <label for="cpf">CPF:</label>
+            <input type="text" name="cpf" id="cpf" placeholder="Digite seu CPF" required>
+        </div>
+
+        <div class="input">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id=email placeholder="Ex: ohmydog9@gmail.com" required>
+        </div>
+
+        <div class="input">
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone" placeholder="Ex: 99 555-444" required>
+        </div>
+
+        <div class="input">
+            <label for="assunto">Assunto:</label>
+            <input type="text" name="assunto" id="assunto" placeholder="Digite aqui o assunto!" required>
+        </div>
+
+        <div class="input">
+            <label for="mensagem">Mensagem:</label>
+            <input type="text" name="mensagem" id="mensagem" placeholder="Tire suas duvidas aqui!">
+        </div>
+            <div class="form-esquerda-botao">
+                <button class="enviar" type="submit">Enviar</button>
+            </div>
+            
+
+    </form>
+
+
+
+</body>
+
+</htm>
