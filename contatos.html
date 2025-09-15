@@ -8,24 +8,45 @@
     <meta name="author" content="Murilo Ramos">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/contatos.css">
-    <title>Contatos</title>
+    <title>Contatos do site Oh my dog! pet-shop</title>
+    <title>Document</title>
 </head>
 
 <body class="cor-fundo">
-    <header class="cabecalho"></header>
-    <nav class="menu-superior fonte">
+    <header class="cabecalho">
+        <h1 class="fonte">OH</h1>
+        <div class="texto-mydog fonte">
+            <h2 class="texto-mydog fonte">MY</h2>
+            <h2 class="texto-mydog fonte">DOG</h2>
+        </div>
+        <div class="ponto-exclamacao fonte">
+            <h2 class="ponto-exclamacao fonte">!</h2>
+        </div>
+        <div class="carrinho fonte">
+            <a href="#carrinho">CARRINHO</a>
+        </div>
+        <div class="perfil fonte">
+            <a href="#perfil">PERFIL</a>
+        </div>
+    </header>
+
+    <nav class="menu-superior">
         <ul>
-            <li><a href="#Home">HOME</a></li>
-            <li><a href="#Serviços">SERVIÇOS</a></li>
-            <li><a href="#Galeria">GALERIA</a></li>
-            <li><a href="#Contato">ENTRE EM CONTATO</a></li>
+            <li><a href="#home" class="fonte">HOME</a></li>
+            <li><a href="#servicos" class="fonte">SERVIÇOS</a></li>
+            <li><a href="#galeria" class="fonte">GALERIA</a></li>
+            <li><a href="#entre-em-contato" class="fonte">ENTRE EM CONTATO</a></li>
         </ul>
     </nav>
+
+
+
     <div class="titulo-contato">
-        <h1 class="cor-contato fonte">Entre em contato conosco:</h1>
+        <h3 class="cor-contato fonte">Entre em contato conosco:</h3>
     </div>
 
-    <form class="entre-em-contato form-esquerda fonte-form" action="http://localhost/post.php" method="POST" target="_blank">
+    <form class="entre-em-contato form-esquerda fonte-form" action="http://localhost/post.php" method="POST"
+        target="_blank">
 
         <div class="input">
             <label for="nome">Nome:</label>
@@ -56,12 +77,15 @@
             <label for="mensagem">Mensagem:</label>
             <input class="fonte" type="text" name="mensagem" id="mensagem" placeholder="Tire suas duvidas aqui!">
         </div>
-            <div class="form-esquerda-botao">
-                <button class="enviar fonte" type="submit">Enviar</button>
-            </div>
-            
 
+        <div class="form-esquerda-botao">
+            <button class="enviar fonte" type="submit">Enviar</button>
+        </div>
     </form>
+
+    <footer class="rodape">
+        <img class="img-rodape" src="./css/img/rodapeatualizado2.png" alt="imagem rodapé">
+    </footer>
 
 
 
