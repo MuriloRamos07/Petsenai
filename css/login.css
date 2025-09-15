@@ -10,6 +10,7 @@ h1{
     font-family: 'SlabOne-Regular.ttf';
     font-size: 90px;
     text-align: justify;
+    padding: 0px 10px 0px 10px;
     color: #E5E0D8;
 }
 header{
@@ -30,17 +31,27 @@ h2{
     align-items: center;
     padding: 0px 20px 0px 0px;
 }
+
+.carrinho a{
+    margin-left:1000px;
+    padding: 0px 50px 0px 10px;
+    color: #E5E0D8;
+}
+.perfil a{
+    padding: 0px 50px 0px 10px;
+    color: #E5E0D8;
+}
 .texto-mydog {
     text-align: center;   
-    
 }
 .texto-mydog h2 {
     font-size: 25px;
-    padding: 0px 20px 0px 0px;
+    padding: 0px 10px 0px 0px;
 }
-.ponto-exclamacao h2{
+.ponto-exclamacao h2 {
     font-size: 65px;
 }
+
 .lobster-regular {
   font-family: "Alfa", sans-serif;
   font-weight: 400;
@@ -85,6 +96,7 @@ h2{
     height: 120px;
     margin: auto;
     box-shadow: 0px 0px 10px #809671;
+    margin: 50px 10px 50px 10px;
     padding: 100px;
     box-sizing: border-box;
     background-color: #809671;
