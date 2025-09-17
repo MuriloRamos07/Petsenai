@@ -103,7 +103,56 @@ h2{
     background-color: #809671;
     text-align: center;
 }
-.linha{
+.caixa-maior{
+    margin: 50px 360px 50px 360px;
+    width: 719px;
+    height: 463px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #809671 0%, #293024 100%);
+}
+.titulo{
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    color: #E5E0D8;
+}
+.caixa-de-email{
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    color: #E5E0D8;
+}
+.caixa-de-email input{
+    width: 400px;
+    height: 34px;    
+    padding-left: 5px;
+    border-color: #E5E0D8;
+    border-radius: 10px;
+    background-color: #E5E0D8;
+    color: rgba(128, 150, 113, 0.80);
+}
+.caixa-de-senha{
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    color: #E5E0D8;
+}
+.caixa-de-senha input{
+    width: 400px;
+    height: 34px;    
+    padding-left: 5px;
+    border-color: #E5E0D8;
+    border-radius: 10px;
+    background-color: #E5E0D8;
+    color: rgba(128, 150, 113, 0.80);
+}
+.button{
+    width: 158px;
+    height: 44px;
+    margin: 45px 280px 45px 281px;;
+    padding: 5px;
+    border-radius: 110px;
+    background-color: #E5E0D8;
+    color: rgba(128, 150, 113, 0.80);
+}
+/* .linha{
     clear: both;
 }
 .column-3 {    
@@ -133,4 +182,4 @@ h2{
     height: 34px;    
     padding-left: 5px;
     box-sizing: border-box;
-}
+} */
