@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Contatos HTML5">
+    <meta name="keywords" content="Contatos, pet-shop, HTML, CSS">
+    <meta name="author" content="Murilo Ramos">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contatos.css">
+    <title>Contatos do site Oh my dog! pet-shop</title>
+</head>
+
+<body class="cor-fundo">
+    <header class="cabecalho">
+        <h1 class="fonte">OH</h1>
+        <div class="texto-mydog fonte">
+            <h2 class="texto-mydog fonte">MY</h2>
+            <h2 class="texto-mydog fonte">DOG</h2>
+        </div>
+        <div class="ponto-exclamacao fonte">
+            <h2 class="ponto-exclamacao fonte">!</h2>
+        </div>
+        <div class="carrinho fonte">
+            <a href="./carrinho.html">CARRINHO</a>
+        </div>
+        <div class="perfil fonte">
+            <a href="./login.html">PERFIL</a>
+        </div>
+    </header>
+
+    <nav class="menu-superior">
+        <ul>
+            <li><a href="./index.html" class="fonte">HOME</a></li>
+            <li><a href="./servicos.html" class="fonte">SERVIÇOS</a></li>
+            <li><a href="./galeria.html" class="fonte">GALERIA</a></li>
+            <li><a href="./contatos.html" class="fonte">ENTRE EM CONTATO</a></li>
+        </ul>
+    </nav>
+
+
+
+    <div class="titulo-contato">
+        <h3 class="cor-contato fonte">Entre em contato conosco:</h3>
+    </div>
+
+    <form class="entre-em-contato form-esquerda fonte-form" action="http://localhost/post.php" method="POST"
+        target="_blank">
+
+        <div class="input">
+            <label for="nome">Nome:</label>
+            <input class="fonte" type="" name="nome" id="nome" placeholder="Seu nome completo" required>
+        </div>
+
+        <div class="input">
+            <label for="cpf">CPF:</label>
+            <input class="fonte" type="text" name="cpf" id="cpf" placeholder="Digite seu CPF" required>
+        </div>
+
+        <div class="input">
+            <label for="email">E-mail:</label>
+            <input class="fonte" type="email" name="email" id=email placeholder="Ex: ohmydog9@gmail.com" required>
+        </div>
+
+        <div class="input">
+            <label for="telefone">Telefone:</label>
+            <input class="fonte" type="tel" name="telefone" id="telefone" placeholder="Ex: 99 555-444" required>
+        </div>
+
+        <div class="input">
+            <label for="assunto">Assunto:</label>
+            <input class="fonte" type="text" name="assunto" id="assunto" placeholder="Digite aqui o assunto!">
+        </div>
+
+        <div class="input">
+            <label for="mensagem">Mensagem:</label>
+            <input class="fonte" type="text" name="mensagem" id="mensagem" placeholder="Tire suas duvidas aqui!">
+        </div>
+
+        <div class="form-esquerda-botao">
+            <button class="enviar fonte" type="submit">Enviar</button>
+        </div>
+    </form>
+
+    <footer class="rodape">
+        <img class="img-rodape" src="./css/img/rodapeatualizado2.png" alt="imagem rodapé">
+    </footer>
+
+
+
+</body>
+
+</html>
