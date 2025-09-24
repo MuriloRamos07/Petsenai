@@ -182,7 +182,7 @@ header {
 .entre-em-contato input,
 .entre-em-contato textarea {
     width: 500px;
-    height: 28px;
+    height: 30px;
     margin-bottom: 10px;
     border: 3px solid;
     border-color: #809671;
@@ -248,8 +248,36 @@ header {
     margin-top: 0;
 }
 
-.rodape {
-    margin-top: 10px;
+
+footer {
+    background-color: #809671;
+    color: #FFFFFF;
+    padding: 20px 0;
+    width: 100%;
+    margin: 5px;
 }
 
-/*Fim da página*/
+.footer-content {
+    max-width: 1200px;
+    margin-bottom: 10px;
+    padding: 0 20px;
+}
+
+.footer-content p {
+    margin-bottom: 10px;
+}
+.termos1{
+    margin-top: 50px;
+    text-align: start;
+}
+
+.imagem{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+.centralizar{
+    margin-top: -6%;
+    text-align: center;
+
+}
