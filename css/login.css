@@ -192,7 +192,7 @@ h2 {
 .coluna2 {
     margin: 10px 0px 5px 10px;
     border-right: 1px solid white;
-    padding: 5px 200px 5px 0px;
+    padding: 5px 200px 5px 10px;
     font-size: 10px;
     color: #ffffff;
 }
@@ -237,6 +237,6 @@ h4 {
 }
 
 .imagem {
-    width: 30x;
-    height: 30px;
+    width: 48x;
+    height: 51px;
 }
