@@ -113,8 +113,9 @@ h2 {
 .retangulo1 {
     display: flex;
     width: 669px;
-    height: 1402px;
+    height: 1940px;
     border-radius: 50px;
+    box-shadow: 1px 1px 10px 0px #7d946d;
     background: #809671;
     margin-left: 50px;
     margin-top: 25px;
@@ -122,29 +123,25 @@ h2 {
     justify-content: center;
 }
 
-.circulo1 {
-    width: 215px;
-    height: 215px;
-    border-radius: 50%;
-    background-color: #E5E0D8;
-    margin-top: 25px;
-}
-
-.retangulo-interior {
+.retangulo-interior1 {
     width: 602px;
-    height: 121px;
+    height: 309px;
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 50px;
-    background: #E5E0D8;
-
+    color: white;
+    margin-top: 50px;
 }
+
 
 /* Fim do primeiro retangulo */
 /* Começo do segundo retangulo */
 .retangulo2 {
     display: flex;
     width: 669px;
-    height: 1402px;
+    height: 1940px;
     border-radius: 50px;
+    box-shadow: 1px 1px 10px 0px #7d946d;
     background: #809671;
     margin-right: 50px;
     margin-top: 25px;
@@ -152,12 +149,15 @@ h2 {
     justify-content: center;
 }
 
-.circulo2 {
-    width: 215px;
-    height: 215px;
-    border-radius: 50%;
-    background-color: #E5E0D8;
-    margin-top: 25px;
+.retangulo-interior2 {
+    width: 602px;
+    height: 309px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    color: white;
+    margin-top: 50px;
 }
+
 
 /* Fim do segundo retangulo */
