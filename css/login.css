@@ -117,7 +117,7 @@ h2 {
 }
 
 .caixa-maior {
-    margin: 50px 360px 50px 525px;
+    margin: 50px 360px 50px 360px;
     width: 800px;
     height: 485px;
     border-radius: 10px;
@@ -184,29 +184,29 @@ h2 {
 .coluna1 {
     margin: 10px 0px 5px 10px;
     border-right: 1px solid white;
-    padding: 5px 300px 5px 0px;
+    padding: 5px 100px 5px 20px;
     font-size: 20px;
     color: #ffffff;
 }
 
 .coluna2 {
-    margin: 10px 0px 5px 15px;
+    margin: 10px 0px 5px 10px;
     border-right: 1px solid white;
-    padding: 5px 300px 5px 0px;
+    padding: 5px 200px 5px 0px;
     font-size: 10px;
     color: #ffffff;
 }
 
 .coluna3 {
-    margin: 0px 0px 0px 35px;
+    margin: 0px 0px 0px 25px;
     border-right: 1px solid white;
-    padding: 5px 300px 5px 0px;
+    padding: 5px 250px 5px 0px;
     font-size: 10px;
     color: #ffffff;
 }
 
 .coluna4 {
-    margin: 0px 30px 0px 75px;
+    margin: 0px 30px 0px 45px;
     border: solid;
     border-radius: 10px;
     border-color: white;
@@ -214,7 +214,13 @@ h2 {
     font-size: 10px;
     color: #ffffff;
 }
-.coluna hover{
+
+.coluna4 a {
+    text-decoration: none;
+    color: white;
+}
+
+.coluna hover {
     display: inline-block;
     position: relative;
     color: white;
@@ -229,31 +235,8 @@ h4 {
     text-align: justify;
     color: #ffffff;
 }
-footer {
-    margin: 0px 0px 0px 0px;
-    position: relative; 
-    bottom: 0; 
-    width: 100;
-    background-color: #809671;
-    text-align: center;
-    padding: 40px;
-  }
 
-.footer-content {
-    max-width: 1200px;
-    margin-bottom: 10px;
-    padding: 0 30px;
-}
-
-.termos1{
-    margin-top: 50px;
-    text-align: start;
-}
-
-.imagem{
-    width: 30px;
+.imagem {
+    width: 30x;
     height: 30px;
-}
-.centralizar{
-    align-items: center;
 }
