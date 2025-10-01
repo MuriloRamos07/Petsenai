@@ -46,6 +46,4 @@ NOME_PRODUTO VARCHAR(50)
 DESCRICAO TEXT
 PRECO DECIMAL(10,2)
 TIPO_PRODUTO VARCHAR(100)
-ANIMAL CHAR(15) /* C = cachorro e G = gato */
-
-
+ANIMAL CHAR(1) /* C = cachorro e G = gato */
