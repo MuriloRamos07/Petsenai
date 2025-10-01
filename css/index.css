@@ -87,18 +87,132 @@ h2{
     margin-left: 200px;
     background-color:  #eeebebb4;
 }
-.imagens-home {
-    display: flex;
-    gap: 90px;
-    margin: 20px 0px 20px 0px;
-  }
-.imgens-gatos{
-    display: flex;
-    gap: 90px;
-    margin: 20px 0px 20px 0px;
+p{
+    font-family: 'SlabOne-Regular.ttf';
+    font-size: 25px;
+    color: rgb(56, 52, 47);
+   text-align: center;
 }
+/*Inicio imagens*/
+.imagem-home {
+   display: flex;
+   margin: 0px 10px 10px 0px;
+   background-size: cover;
+   padding: 0px 5px 0px 5px;
+   height: 500px;
+   width: 100%;
+  }
+.img-gatos{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0px 10px 0px;
+    height: auto;
+    max-width: 100%;
+}
+.img-gatos {
+    position: relative; /* Define a posição relativa para que as imagens absolutas fiquem dentro deste contêiner */
+    width: 500px; /* Largura do contêiner (ajuste conforme necessário) */
+    height: 300px; /* Altura do contêiner (ajuste conforme necessário) */
+  }
+  
+  .img-gatos img {
+    position: absolute; /* Posiciona as imagens de forma absoluta dentro do contêiner */
+    top: 0;
+    left: 0;
+    width: 100%; /* Garante que a imagem preencha o contêiner */
+    height: 100%;
+    transition: opacity 0.5s ease-in-out; /* Define a transição da opacidade */
+  }
+  
+  .img-gatos .imagem-gato1 {
+    opacity: 0; /* A segunda imagem começa invisível */
+  }
+  
+  .img-gatos:gato1 .imagem-gato2 {
+    opacity: 1; /* Torna a segunda imagem visível ao passar o mouse */
+  }
 .imgens-cachorros{
     display: flex;
     gap: 90px;
     margin: 30px 0px 30px 0px;
 }
+/*Fim imagens
+
+/*Inicio rodapé*/
+.rodape-caixa {
+    margin-top: 5px;
+    width: 100%;
+    height: 200px;
+    background-color: #809671;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px 0px 0px;
+}
+
+.coluna1 {
+    margin: 10px 0px 5px 10px;
+    border-right: 1px solid white;
+    padding: 5px 100px 5px 20px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+.coluna2 {
+    margin: 0px 0px 5px 10px;
+    border-right: 1px solid white;
+    padding: 5px 200px 5px 10px;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.coluna3 {
+    margin: 0px 0px 0px 20px;
+    border-right: 1px solid white;
+    padding: 5px 200px 5px 10px;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.coluna4 {
+    margin: 0px 45px 0px 45px;
+    border: solid;
+    border-radius: 10px;
+    border-color: white;
+    padding: 5px 5px 5px 5px;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.coluna4 a {
+    text-decoration: none;
+    color: white;
+}
+
+.coluna hover {
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+
+h3 {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+h4 {
+    text-align: justify;
+    color: #ffffff;
+    margin-left: 10px;
+}
+.imagem {
+    width: 25px;
+    height: 25px;
+    margin: 100px 2px 0px -70px;
+}
+.logotipo{
+    width: 130px;
+    height: 140px;
+    margin-left: 50px;
+}
+/*Fim rodapé
