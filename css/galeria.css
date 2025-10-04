@@ -161,3 +161,81 @@ h2 {
 
 
 /* Fim do segundo retangulo */
+/* começo rodape */
+.rodape-caixa {
+    margin-top: 5px;
+    width: 100%;
+    height: 200px;
+    background-color: #809671;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px 0px 0px;
+}
+
+.coluna1 {
+    margin: 10px 0px 5px 10px;
+    border-right: 1px solid white;
+    padding: 5px 100px 5px 20px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+.coluna2 {
+    margin: 0px 0px 5px 10px;
+    border-right: 1px solid white;
+    padding: 5px 200px 5px 10px;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.coluna3 {
+    margin: 0px 0px 0px 20px;
+    border-right: 1px solid white;
+    padding: 5px 200px 5px 10px;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.coluna4 {
+    margin: 0px 45px 0px 45px;
+    border: solid;
+    border-radius: 10px;
+    border-color: white;
+    padding: 5px 5px 5px 5px;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.coluna4 a {
+    text-decoration: none;
+    color: white;
+}
+
+.coluna hover {
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+
+h3 {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+h4 {
+    text-align: justify;
+    color: #ffffff;
+    margin-left: 10px;
+}
+.imagem {
+    width: 25px;
+    height: 25px;
+    margin: 100px 2px 0px -70px;
+}
+.logotipo{
+    width: 130px;
+    height: 140px;
+    margin-left: 50px;
+}
+/* fim rodape */

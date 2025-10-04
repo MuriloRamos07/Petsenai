@@ -124,11 +124,11 @@ p{
     transition: opacity 0.5s ease-in-out; /* Define a transição da opacidade */
   }
   
-  .img-gatos .imagem-gato1 {
+  .img-gatos .imagem-gato-1 {
     opacity: 0; /* A segunda imagem começa invisível */
   }
   
-  .img-gatos:gato1 .imagem-gato2 {
+  .img-gatos:gato1 .imagem-gato-2 {
     opacity: 1; /* Torna a segunda imagem visível ao passar o mouse */
   }
 .imgens-cachorros{
