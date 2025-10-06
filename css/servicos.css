@@ -3,31 +3,38 @@
     margin: 0;
     overflow-x: hidden;
 }
+
 @font-face {
-    font-family:'SlabOne-Regular.ttf' ;
+    font-family: 'SlabOne-Regular.ttf';
     src: url('./fonts/Alfa_Slab_One/AlfaSlabOne-Regular.ttf');
 }
-h1{
+
+h1 {
     font-family: 'SlabOne-Regular.ttf';
     font-size: 90px;
     text-align: justify;
     padding: 0px 10px 0px 10px;
     color: #E5E0D8;
 }
-header{
+
+header {
     font-family: 'SlabOne-Regular.ttf';
 }
-h2{
+
+h2 {
     font-size: 35px;
     color: #E5E0D8;
 }
-p{
+
+p {
     font-size: 35px;
     color: #E5E0D8;
 }
-.cor-fundo{
+
+.cor-fundo {
     background-color: #E5E0D8;
 }
+
 .cabecalho {
     width: 100%;
     height: 150px;
@@ -37,41 +44,57 @@ p{
     padding: 0px 20px 0px 0px;
 }
 
-.carrinho a{
-    margin-left:1000px;
+.carrinho a {
+    margin-left: 1000px;
     padding: 0px 50px 0px 10px;
     color: #E5E0D8;
 }
-.perfil a{
+
+.perfil a {
     padding: 0px 50px 0px 10px;
     color: #E5E0D8;
 }
+
 .texto-mydog {
-    text-align: center;   
+    text-align: center;
 }
+
 .texto-mydog h2 {
     font-size: 25px;
     padding: 0px 10px 0px 0px;
 }
+
 .ponto-exclamacao h2 {
     font-size: 65px;
 }
 
 .lobster-regular {
-  font-family: "Alfa", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Alfa", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-#container{
+
+#container {
     background-color: #CEC9C2;
 }
+
 /* menu superior inicio */
 
 .menu-superior {
     width: 100%;
     height: 50px;
-    background-color:rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
+}
+
+.menu-superior a {
+    text-decoration: none;
+    color: #809671;
+}
+
+.menu-superior a:hover {
+    text-decoration: none;
+    color: #809671;
 }
 
 .menu-superior ul {
@@ -79,6 +102,7 @@ p{
     padding: 0;
     margin: 0;
     display: flex;
+
 }
 
 .menu-superior ul li {
@@ -87,7 +111,6 @@ p{
     line-height: 50px;
     margin-left: 200px;
     padding: 0px 10px 0px 10px;
-
     font-family: 'SlabOne-Regular.ttf';
 }
 
@@ -96,11 +119,14 @@ p{
     position: relative;
     line-height: 50px;
     margin-left: 200px;
-    background-color:  rgba(238, 235, 235, 0.705);
+    background-color: rgba(238, 235, 235, 0.705);
+    text-decoration: none;
+    color: white;
 }
+
 /* menu superior fim */
 /* começo do corpo da página */
-.sobre-nos{
+.nossos-servicos {
     margin: 10px 5px 10px 5px;
     width: 710px;
     height: 610px;
@@ -108,85 +134,35 @@ p{
     padding-left: 50px;
     border-radius: 20px;
     margin-right: 750px;
-    margin-left: 25px; 
+    margin-left: 25px;
     background-color: #768A68;
     color: #D1CCC5;
 }
-.sobre-nos h2{
+
+.nossos-servicos h2 {
     text-align: center;
 }
-.servicos{      
-    margin: 10px 5px 10px 5px;
-    width: 680px;
-    height: 550px;
-    padding-right: 50px;
-    padding-left: 50px;
-    border-radius: 20px;
-    margin-left: 750px;
-    margin-right: 25px; 
-    background-color: #768A68;
-    color: #D1CCC5;
-}
-.servicos h2{
+
+.lista-de-servicos {
     text-align: center;
+}
+
+.lista-de-servicos ul li {
+    text-align: center;
+}
+
+.produtos-e-acessorios{
+    text-align: center;
+}
+
+.prod-e-acess{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: left;
 }
 /* fim do corpo da página */
-.caixa-maior {
-    margin: 50px 360px 50px 360px;
-    width: 800px;
-    height: 485px;
-    border-radius: 10px;
-    background: linear-gradient(180deg, #809671 0%, #293024 100%);
-}
-
-.titulo {
-    text-align: center;
-    padding: 20px 0px 20px 0px;
-    color: #E5E0D8;
-}
-
-.caixa-de-email {
-    padding: 20px 0px 20px 0px;
-    text-align: center;
-    color: #E5E0D8;
-}
-
-.caixa-de-email input {
-    width: 525px;
-    height: 57px;
-    padding-left: 5px;
-    border-color: #E5E0D8;
-    border-radius: 10px;
-    background-color: #E5E0D8;
-    color: rgba(128, 150, 113, 0.80);
-}
-
-.caixa-de-senha {
-    padding: 20px 0px 20px 0px;
-    text-align: center;
-    color: #E5E0D8;
-}
-
-.caixa-de-senha input {
-    width: 525px;
-    height: 57px;
-    padding-left: 5px;
-    border-color: #E5E0D8;
-    border-radius: 10px;
-    background-color: #E5E0D8;
-    color: rgba(128, 150, 113, 0.80);
-}
-
-.button {
-    width: 158px;
-    height: 40px;
-    margin: 0px 0px 0px 325px;
-    border-radius: 110px;
-    border-color: #E5E0D8;
-    background-color: #E5E0D8;
-    color: rgba(128, 150, 113, 0.80);
-}
-
+/* inicio rodape */
 .rodape-caixa {
     margin-top: 5px;
     width: 100%;
@@ -253,13 +229,17 @@ h4 {
     color: #ffffff;
     margin-left: 10px;
 }
+
 .imagem {
     width: 25px;
     height: 25px;
     margin: 100px 10px 0px -75px;
 }
-.logotipo{
+
+.logotipo {
     width: 130px;
     height: 140px;
     margin-left: 50px;
 }
+
+/* final do rodape */
