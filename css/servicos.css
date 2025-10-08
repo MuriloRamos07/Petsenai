@@ -127,14 +127,12 @@ p {
 /* menu superior fim */
 /* começo do corpo da página */
 .nossos-servicos {
-    margin: 10px 5px 10px 5px;
-    width: 710px;
-    height: 610px;
+    margin: 25px 50px 100px 320px;
+    width: 700px;
+    height: 800px;
     padding-right: 50px;
     padding-left: 50px;
     border-radius: 20px;
-    margin-right: 750px;
-    margin-left: 25px;
     background-color: #768A68;
     color: #D1CCC5;
 }
