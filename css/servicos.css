@@ -126,6 +126,7 @@ p {
 
 /* menu superior fim */
 /* começo do corpo da página */
+/* caixa de texto centralizada */
 .nossos-servicos {
     margin: 25px 50px 100px 320px;
     width: 700px;
@@ -149,16 +150,54 @@ p {
     text-align: center;
 }
 
-.produtos-e-acessorios{
+.produtos-e-acessorios {
     text-align: center;
 }
 
-.prod-e-acess{
+.prod-e-acess {
     display: flex;
     justify-content: center;
     justify-content: space-around;
     text-align: left;
 }
+
+/* imagens da página */
+.img-brinquedos {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    margin: 10px 0px 0px 305px;
+    border-radius: 50px;
+}
+
+.img-banho {
+    display: flex;
+    justify-items: center;
+    width: 350px;
+    height: 350px;
+    margin: 10px 0px 250px 1250px;
+    border-radius: 50px;
+}
+
+.img-racao {
+    display: flex;
+    justify-items: center;
+    width: 350px;
+    height: 350px;
+    margin: 10px 0px 0px 305px;
+    border-radius: 50px;
+}
+
+.img-coleira {
+    display: flex;
+    justify-items: center;
+    width: 350px;
+    height: 350px;
+    margin: 10px 0px 250px 1250px;
+    border-radius: 50px;
+}
+
 /* fim do corpo da página */
 /* inicio rodape */
 .rodape-caixa {

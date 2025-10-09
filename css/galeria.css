@@ -76,10 +76,22 @@ h2 {
     color: rgb(255, 255, 255);
 }
 
+.menu-superior a {
+    text-decoration: none;
+    color: #809671;
+}
+
+.menu-superior a:hover {
+    text-decoration: none;
+    color: #809671;
+}
+
 .menu-superior ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+
 }
 
 .menu-superior ul li {
@@ -88,7 +100,6 @@ h2 {
     line-height: 50px;
     margin-left: 200px;
     padding: 0px 10px 0px 10px;
-    font-size: rgba(0, 0, 0, 0.705);
     font-family: 'SlabOne-Regular.ttf';
 }
 
@@ -98,8 +109,9 @@ h2 {
     line-height: 50px;
     margin-left: 200px;
     background-color: rgba(238, 235, 235, 0.705);
+    text-decoration: none;
+    color: white;
 }
-
 /* Fim do cabeçalho */
 /* Começo do primeiro retangulo */
 .corpo {
