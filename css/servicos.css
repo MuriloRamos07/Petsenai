@@ -165,39 +165,41 @@ p {
 .img-brinquedos {
     display: flex;
     justify-content: center;
-    width: 350px;
-    height: 350px;
-    margin: 10px 0px 0px 305px;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin: 10px 0px 0px 260px;
     border-radius: 50px;
 }
 
 .img-banho {
     display: flex;
     justify-items: center;
-    width: 350px;
-    height: 350px;
-    margin: 10px 0px 250px 1250px;
+    width: 300px;
+    height: 300px;
+    margin: 10px 0px 100px 900px;
     border-radius: 50px;
 }
-
 .img-racao {
     display: flex;
     justify-items: center;
-    width: 350px;
-    height: 350px;
-    margin: 10px 0px 0px 305px;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin: 10px 0px 0px 260px;
     border-radius: 50px;
 }
 
 .img-coleira {
     display: flex;
     justify-items: center;
-    width: 350px;
-    height: 350px;
-    margin: 10px 0px 250px 1250px;
+    width: 300px;
+    height: 300px;
+    margin: 10px 0px 100px 900px;
     border-radius: 50px;
 }
 
+/* Fim das imagens */
 /* fim do corpo da página */
 /* inicio rodape */
 .rodape-caixa {
@@ -209,7 +211,7 @@ p {
     align-items: center;
     padding: 0px 20px 0px 0px;
 }
-
+/* Colunas do radapé */
 .coluna1 {
     margin: 10px 0px 5px 10px;
     border-right: 1px solid white;
@@ -255,7 +257,7 @@ p {
     position: relative;
     color: white;
 }
-
+/* Colunas do rodapé */
 h3 {
     font-size: 25px;
     color: #ffffff;
