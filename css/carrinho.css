@@ -2,27 +2,58 @@
     padding: 0;
     margin: 0;
 }
-@font-face {
-    font-family:'SlabOne-Regular.ttf' ;
-    src: url('./fonts/Alfa_Slab_One/AlfaSlabOne-Regular.ttf');
-}
-h1{
+h1 {
     font-family: 'SlabOne-Regular.ttf';
     font-size: 90px;
     text-align: justify;
     padding: 0px 10px 0px 10px;
     color: #E5E0D8;
 }
-header{
-    font-family: 'SlabOne-Regular.ttf';
-}
-h2{
+
+h2 {
     font-size: 35px;
     color: #E5E0D8;
 }
-.cor-fundo{
+
+h3 {
+    font-family: 'SlabOne-Regular.ttf';
+    font-size: 30px;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    color: #E5E0D8;
+}
+@font-face {
+    font-family: 'AlfaSlabOne-Regular';
+    src: url(./fonts/Alfa_Slab_One/AlfaSlabOne-Regular.ttf);
+}
+.fonte {
+    font-family: 'AlfaSlabOne-Regular';
+}
+
+.fonte-form {
+    font-family: 'AlfaSlabOne-Regular';
+    font-size: 13px;
+}
+@font-face{ 
+    font-family: 'AlegreyaSC-Regular';
+    src: url(./fonts/Alegreya_SC/AlegreyaSC-Regular.ttf);
+}
+.fonte2{
+    font-family: 'AlegreyaSC-Regular';
+}
+.fonte2-form{
+    font-family: 'AlegreyaSC-Regular';
+    font-size: 13px;
+}
+
+header {
+    font-family: 'SlabOne-Regular.ttf';
+}
+
+.cor-fundo {
     background-color: #E5E0D8;
 }
+
 .cabecalho {
     width: 100%;
     height: 150px;
@@ -30,6 +61,36 @@ h2{
     display: flex;
     align-items: center;
     padding: 0px 20px 0px 0px;
+}
+
+.carrinho a {
+    margin-left: 1000px;
+    padding: 0px 50px 0px 10px;
+    color: #E5E0D8;
+}
+
+.perfil a {
+    padding: 0px 50px 0px 10px;
+    color: #E5E0D8;
+}
+
+.texto-mydog {
+    text-align: center;
+}
+
+.texto-mydog h2 {
+    font-size: 25px;
+    padding: 0px 10px 0px 0px;
+}
+
+.ponto-exclamacao h2 {
+    font-size: 65px;
+}
+
+.lobster-regular {
+    font-family: "Alfa", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .carrinho a{
@@ -60,14 +121,26 @@ h2{
 .menu-superior {
     width: 100%;
     height: 50px;
-    background-color:rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
+}
+
+.menu-superior a {
+    text-decoration: none;
+    color: #809671;
+}
+
+.menu-superior a:hover {
+    text-decoration: none;
+    color: #809671;
 }
 
 .menu-superior ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+
 }
 
 .menu-superior ul li {
@@ -76,7 +149,6 @@ h2{
     line-height: 50px;
     margin-left: 200px;
     padding: 0px 10px 0px 10px;
-    font-size:  rgba(0, 0, 0, 0.705);
     font-family: 'SlabOne-Regular.ttf';
 }
 
@@ -85,5 +157,83 @@ h2{
     position: relative;
     line-height: 50px;
     margin-left: 200px;
-    background-color:  rgba(238, 235, 235, 0.705);
+    background-color: rgba(238, 235, 235, 0.705);
+    text-decoration: none;
+    color: white;
+}
+.rodape-caixa {
+    margin-top: 5px;
+    width: 100%;
+    height: 200px;
+    background-color: #809671;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px 0px 0px;
+}
+
+.coluna1 {
+    margin: 10px 0px 5px 10px;
+    border-right: 1px solid white;
+    padding: 5px 100px 5px 20px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+.coluna2 {
+    margin: 0px 0px 5px 10px;
+    border-right: 1px solid white;
+    padding: 5px 200px 5px 10px;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.coluna3 {
+    margin: 0px 0px 0px 20px;
+    border-right: 1px solid white;
+    padding: 5px 200px 5px 10px;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.coluna4 {
+    margin: 0px 45px 0px 45px;
+    border: solid;
+    border-radius: 10px;
+    border-color: white;
+    padding: 5px 5px 5px 5px;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.coluna4 a {
+    text-decoration: none;
+    color: white;
+}
+
+.coluna hover {
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+
+h3 {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+h4 {
+    text-align: justify;
+    color: #ffffff;
+    margin-left: 10px;
+}
+.imagem {
+    width: 25px;
+    height: 25px;
+    margin: 100px 2px 0px -70px;
+}
+.logotipo{
+    width: 130px;
+    height: 140px;
+    margin-left: 50px;
 }

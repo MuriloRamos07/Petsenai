@@ -70,15 +70,27 @@ h2 {
 
 .menu-superior {
     width: 100%;
-    height: auto;
+    height: 50px;
     background-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
+}
+
+.menu-superior a {
+    text-decoration: none;
+    color: #809671;
+}
+
+.menu-superior a:hover {
+    text-decoration: none;
+    color: #809671;
 }
 
 .menu-superior ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+
 }
 
 .menu-superior ul li {
@@ -96,6 +108,8 @@ h2 {
     line-height: 50px;
     margin-left: 200px;
     background-color: rgba(238, 235, 235, 0.705);
+    text-decoration: none;
+    color: white;
 }
 
 #container {
@@ -237,12 +251,14 @@ h4 {
     color: #ffffff;
     margin-left: 10px;
 }
+
 .imagem {
     width: 25px;
     height: 25px;
     margin: 100px 10px 0px -70px;
 }
-.logotipo{
+
+.logotipo {
     width: 130px;
     height: 140px;
     margin-left: 50px;
