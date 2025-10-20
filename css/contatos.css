@@ -46,11 +46,13 @@ header {
     margin-left: 1000px;
     padding: 0px 50px 0px 10px;
     color: #E5E0D8;
+    text-decoration: none;
 }
 
 .perfil a {
     padding: 0px 50px 0px 10px;
     color: #E5E0D8;
+    text-decoration: none;
 }
 
 .texto-mydog {
@@ -337,7 +339,7 @@ h4 {
 .imagem {
     width: 25px;
     height: 25px;
-    margin: 100px 10px 0px -75px;
+    margin: 100px 10px 0px -81px;
 }
 
 .logotipo {
