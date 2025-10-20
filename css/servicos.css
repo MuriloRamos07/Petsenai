@@ -110,6 +110,15 @@ p {
     font-family: 'SlabOne-Regular.ttf';
 }
 
+.menu-superior ul li:hover {
+    display: inline-block;
+    position: relative;
+    line-height: 50px;
+    margin-left: 200px;
+    background-color: rgba(238, 235, 235, 0.705);
+    text-decoration: none;
+    color: white;
+}
 /* menu superior fim */
 /* começo do corpo da página */
 /* caixa de texto centralizada */
@@ -146,7 +155,7 @@ p {
     display: flex;
     justify-content: space-around;
     text-align: left;
-        color: #D1CCC5;
+    color: #D1CCC5;
 }
 
 .prod-e-acess h4 {
