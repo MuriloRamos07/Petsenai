@@ -1,7 +1,7 @@
-/* Começo da página */
 * {
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 @font-face {
@@ -26,6 +26,11 @@ h2 {
     color: #E5E0D8;
 }
 
+p {
+    font-size: 35px;
+    color: #E5E0D8;
+}
+
 .cor-fundo {
     background-color: #E5E0D8;
 }
@@ -43,11 +48,13 @@ h2 {
     margin-left: 1000px;
     padding: 0px 50px 0px 10px;
     color: #E5E0D8;
+    text-decoration: none;
 }
 
 .perfil a {
     padding: 0px 50px 0px 10px;
     color: #E5E0D8;
+    text-decoration: none;
 }
 
 .texto-mydog {
@@ -69,7 +76,12 @@ h2 {
     font-style: normal;
 }
 
-/* Menu da página */
+#container {
+    background-color: #CEC9C2;
+}
+
+/* menu superior inicio */
+
 .menu-superior {
     width: 100%;
     height: 50px;
@@ -82,17 +94,11 @@ h2 {
     color: #809671;
 }
 
-.menu-superior a:hover {
-    text-decoration: none;
-    color: #809671;
-}
-
 .menu-superior ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
-
 }
 
 .menu-superior ul li {
@@ -190,7 +196,7 @@ h2 {
 }
 
 /* Fim do corpo da página */
-/* Início do rodapé */
+/* inicio rodape */
 .rodape-caixa {
     margin-top: 5px;
     width: 100%;
@@ -201,6 +207,7 @@ h2 {
     padding: 0px 20px 0px 0px;
 }
 
+/* Colunas do radapé */
 .coluna1 {
     margin: 10px 0px 5px 10px;
     border-right: 1px solid white;
@@ -208,7 +215,6 @@ h2 {
     font-size: 20px;
     color: #ffffff;
 }
-
 
 .coluna2 {
     margin: 0px 0px 5px 10px;
@@ -231,7 +237,7 @@ h2 {
     border: solid;
     border-radius: 10px;
     border-color: white;
-    padding: 5px 5px 5px 5px;
+    padding: 5px 20px 5px 20px;
     font-size: 10px;
     color: #ffffff;
 }
@@ -241,12 +247,7 @@ h2 {
     color: white;
 }
 
-.coluna hover {
-    display: inline-block;
-    position: relative;
-    color: white;
-}
-
+/* Colunas do rodapé */
 h3 {
     font-size: 25px;
     color: #ffffff;
@@ -261,7 +262,7 @@ h4 {
 .imagem {
     width: 25px;
     height: 25px;
-    margin: 100px 10px 0px -70px;
+    margin: 100px 10px 0px -75px;
 }
 
 .logotipo {
@@ -270,5 +271,4 @@ h4 {
     margin-left: 50px;
 }
 
-/* Fim do rodapé */
-/* Fim da página */
+/* final do rodape */

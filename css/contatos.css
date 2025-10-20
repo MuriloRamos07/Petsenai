@@ -46,11 +46,13 @@ header {
     margin-left: 1000px;
     padding: 0px 50px 0px 10px;
     color: #E5E0D8;
+    text-decoration: none;
 }
 
 .perfil a {
     padding: 0px 50px 0px 10px;
     color: #E5E0D8;
+    text-decoration: none;
 }
 
 .texto-mydog {
@@ -160,7 +162,7 @@ header {
 }
 
 .menu-superior {
-    width: 100%;
+    width: 110%;
     height: 50px;
     background-color: whitesmoke;
     color: whitesmoke;
@@ -271,8 +273,7 @@ header {
 
 
 
-/*Inicio do rodape*/
-
+/* inicio rodape */
 .rodape-caixa {
     margin-top: 5px;
     width: 100%;
@@ -283,6 +284,7 @@ header {
     padding: 0px 20px 0px 0px;
 }
 
+/* Colunas do radapé */
 .coluna1 {
     margin: 10px 0px 5px 10px;
     border-right: 1px solid white;
@@ -290,7 +292,6 @@ header {
     font-size: 20px;
     color: #ffffff;
 }
-
 
 .coluna2 {
     margin: 0px 0px 5px 10px;
@@ -309,11 +310,11 @@ header {
 }
 
 .coluna4 {
-    margin: 0px 45px 0px 45px;
+    margin: 0px 45px 0px 65px;
     border: solid;
     border-radius: 10px;
     border-color: white;
-    padding: 5px 5px 5px 5px;
+    padding: 5px 20px 5px 20px;
     font-size: 10px;
     color: #ffffff;
 }
@@ -323,12 +324,7 @@ header {
     color: white;
 }
 
-.coluna hover {
-    display: inline-block;
-    position: relative;
-    color: white;
-}
-
+/* Colunas do rodapé */
 h3 {
     font-size: 25px;
     color: #ffffff;
@@ -339,14 +335,17 @@ h4 {
     color: #ffffff;
     margin-left: 10px;
 }
+
 .imagem {
     width: 25px;
     height: 25px;
-    margin: 100px 2px 0px -70px;
+    margin: 100px 10px 0px -81px;
 }
-.logotipo{
+
+.logotipo {
     width: 130px;
     height: 140px;
     margin-left: 50px;
 }
-/*fim do rodape*/
+
+/* final do rodape */
