@@ -1,7 +1,7 @@
-/* Começo do cabeçalho */
 * {
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 @font-face {
@@ -26,6 +26,11 @@ h2 {
     color: #E5E0D8;
 }
 
+p {
+    font-size: 35px;
+    color: #E5E0D8;
+}
+
 .cor-fundo {
     background-color: #E5E0D8;
 }
@@ -43,11 +48,13 @@ h2 {
     margin-left: 1000px;
     padding: 0px 50px 0px 10px;
     color: #E5E0D8;
+    text-decoration: none;
 }
 
 .perfil a {
     padding: 0px 50px 0px 10px;
     color: #E5E0D8;
+    text-decoration: none;
 }
 
 .texto-mydog {
@@ -69,6 +76,12 @@ h2 {
     font-style: normal;
 }
 
+#container {
+    background-color: #CEC9C2;
+}
+
+/* menu superior inicio */
+
 .menu-superior {
     width: 100%;
     height: 50px;
@@ -76,10 +89,16 @@ h2 {
     color: rgb(255, 255, 255);
 }
 
+.menu-superior a {
+    text-decoration: none;
+    color: #809671;
+}
+
 .menu-superior ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
 }
 
 .menu-superior ul li {
@@ -88,16 +107,7 @@ h2 {
     line-height: 50px;
     margin-left: 200px;
     padding: 0px 10px 0px 10px;
-    font-size: rgba(0, 0, 0, 0.705);
     font-family: 'SlabOne-Regular.ttf';
-}
-
-.menu-superior ul li:hover {
-    display: inline-block;
-    position: relative;
-    line-height: 50px;
-    margin-left: 200px;
-    background-color: rgba(238, 235, 235, 0.705);
 }
 
 /* Fim do cabeçalho */
@@ -161,7 +171,7 @@ h2 {
 
 
 /* Fim do segundo retangulo */
-/* começo rodape */
+/* inicio rodape */
 .rodape-caixa {
     margin-top: 5px;
     width: 100%;
@@ -172,6 +182,7 @@ h2 {
     padding: 0px 20px 0px 0px;
 }
 
+/* Colunas do radapé */
 .coluna1 {
     margin: 10px 0px 5px 10px;
     border-right: 1px solid white;
@@ -179,7 +190,6 @@ h2 {
     font-size: 20px;
     color: #ffffff;
 }
-
 
 .coluna2 {
     margin: 0px 0px 5px 10px;
@@ -198,11 +208,11 @@ h2 {
 }
 
 .coluna4 {
-    margin: 0px 45px 0px 45px;
+    margin: 0px 45px 0px 65px;
     border: solid;
     border-radius: 10px;
     border-color: white;
-    padding: 5px 5px 5px 5px;
+    padding: 5px 20px 5px 20px;
     font-size: 10px;
     color: #ffffff;
 }
@@ -212,12 +222,7 @@ h2 {
     color: white;
 }
 
-.coluna hover {
-    display: inline-block;
-    position: relative;
-    color: white;
-}
-
+/* Colunas do rodapé */
 h3 {
     font-size: 25px;
     color: #ffffff;
@@ -228,14 +233,17 @@ h4 {
     color: #ffffff;
     margin-left: 10px;
 }
+
 .imagem {
     width: 25px;
     height: 25px;
-    margin: 100px 2px 0px -70px;
+    margin: 100px 10px 0px -75px;
 }
-.logotipo{
+
+.logotipo {
     width: 130px;
     height: 140px;
     margin-left: 50px;
 }
-/* fim rodape */
+
+/* final do rodape */

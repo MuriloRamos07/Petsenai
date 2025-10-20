@@ -76,16 +76,28 @@ header {
 
 /*Inicio menu superior*/
 .menu-superior {
-    width: 1533px;
+    width: 100%;
     height: 50px;
     background-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
+}
+
+.menu-superior a {
+    text-decoration: none;
+    color: #809671;
+}
+
+.menu-superior a:hover {
+    text-decoration: none;
+    color: #809671;
 }
 
 .menu-superior ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+
 }
 
 .menu-superior ul li {
@@ -94,7 +106,6 @@ header {
     line-height: 50px;
     margin-left: 200px;
     padding: 0px 10px 0px 10px;
-    background-color: whitesmoke;
     font-family: 'SlabOne-Regular.ttf';
 }
 
@@ -104,6 +115,8 @@ header {
     line-height: 50px;
     margin-left: 200px;
     background-color: rgba(238, 235, 235, 0.705);
+    text-decoration: none;
+    color: white;
 }
 
 @font-face {
@@ -258,8 +271,7 @@ header {
 
 
 
-/*Inicio do rodape*/
-
+/* inicio rodape */
 .rodape-caixa {
     margin-top: 5px;
     width: 100%;
@@ -270,6 +282,7 @@ header {
     padding: 0px 20px 0px 0px;
 }
 
+/* Colunas do radapé */
 .coluna1 {
     margin: 10px 0px 5px 10px;
     border-right: 1px solid white;
@@ -277,7 +290,6 @@ header {
     font-size: 20px;
     color: #ffffff;
 }
-
 
 .coluna2 {
     margin: 0px 0px 5px 10px;
@@ -296,11 +308,11 @@ header {
 }
 
 .coluna4 {
-    margin: 0px 45px 0px 45px;
+    margin: 0px 45px 0px 65px;
     border: solid;
     border-radius: 10px;
     border-color: white;
-    padding: 5px 5px 5px 5px;
+    padding: 5px 20px 5px 20px;
     font-size: 10px;
     color: #ffffff;
 }
@@ -310,12 +322,7 @@ header {
     color: white;
 }
 
-.coluna hover {
-    display: inline-block;
-    position: relative;
-    color: white;
-}
-
+/* Colunas do rodapé */
 h3 {
     font-size: 25px;
     color: #ffffff;
@@ -326,14 +333,17 @@ h4 {
     color: #ffffff;
     margin-left: 10px;
 }
+
 .imagem {
     width: 25px;
     height: 25px;
-    margin: 100px 2px 0px -70px;
+    margin: 100px 10px 0px -75px;
 }
-.logotipo{
+
+.logotipo {
     width: 130px;
     height: 140px;
     margin-left: 50px;
 }
-/*fim do rodape*/
+
+/* final do rodape */
