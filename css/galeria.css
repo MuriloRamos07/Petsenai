@@ -141,8 +141,21 @@ p {
     border-radius: 50px;
     color: white;
     margin-top: 50px;
+    box-shadow: 1px 1px 10px 0px #657a57;
+    justify-content: center;
 }
 
+.letras{
+    font-family: 'SlabOne-Regular.ttf';
+    font-size: 20px;
+
+}
+
+.linhas{
+    width: 1px;
+    height: 309px;
+    background-color: white;
+}
 
 /* Fim do primeiro retangulo */
 /* Começo do segundo retangulo */
