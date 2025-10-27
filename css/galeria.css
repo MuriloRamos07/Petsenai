@@ -117,17 +117,17 @@ p {
     text-align: justify;
     align-items: center;
     justify-content: center;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 .retangulo1 {
-    display: block;
+    display: flex;
     width: 669px;
-    height: 1800px;
+    height: 1940px;
     border-radius: 50px;
     box-shadow: 1px 1px 10px 0px #7d946d;
     background: #809671;
-    margin-left: 40px;
+    margin-left: 50px;
     margin-top: 25px;
     margin-bottom: 25px;
     justify-content: center;
@@ -140,12 +140,11 @@ p {
     background-repeat: no-repeat;
     border-radius: 50px;
     color: white;
-    margin-left: 30px;
     margin-top: 50px;
-    box-shadow: 2px 10px 10px 0px #687b5b;
-    justify-content: center;
 }
 
+<<<<<<< HEAD
+=======
 .letras{
     font-family: 'SlabOne-Regular.ttf';
     font-size: 20px;
@@ -162,13 +161,14 @@ p {
     margin-left: 30px;
     box-shadow: 1px 1px 10px 0px #7d946d;
 }
+>>>>>>> 8b9a26831b6686f28463ca9eb956ede09614ac4b
 
 /* Fim do primeiro retangulo */
 /* Começo do segundo retangulo */
 .retangulo2 {
-    display: block;
+    display: flex;
     width: 669px;
-    height: 1800px;
+    height: 1940px;
     border-radius: 50px;
     box-shadow: 1px 1px 10px 0px #7d946d;
     background: #809671;
@@ -179,16 +179,13 @@ p {
 }
 
 .retangulo-interior2 {
-   width: 602px;
+    width: 602px;
     height: 309px;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 50px;
     color: white;
-    margin-left: 30px;
     margin-top: 50px;
-    box-shadow: 2px 10px 10px 0px #687b5b;
-    justify-content: center;
 }
 
 
