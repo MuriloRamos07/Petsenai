@@ -44,14 +44,8 @@ p {
     padding: 0px 20px 0px 0px;
 }
 
-.carrinho a {
-    margin-left: 1000px;
-    padding: 0px 50px 0px 10px;
-    color: #E5E0D8;
-    text-decoration: none;
-}
-
 .perfil a {
+    margin-left: 1050px;
     padding: 0px 50px 0px 10px;
     color: #E5E0D8;
     text-decoration: none;
@@ -122,6 +116,7 @@ p {
 
 .retangulo1 {
     display: flex;
+    flex-direction: column;
     width: 669px;
     height: 1940px;
     border-radius: 50px;
@@ -143,8 +138,6 @@ p {
     margin-top: 50px;
 }
 
-<<<<<<< HEAD
-=======
 .letras{
     font-family: 'SlabOne-Regular.ttf';
     font-size: 20px;
@@ -161,12 +154,13 @@ p {
     margin-left: 30px;
     box-shadow: 1px 1px 10px 0px #7d946d;
 }
->>>>>>> 8b9a26831b6686f28463ca9eb956ede09614ac4b
+
 
 /* Fim do primeiro retangulo */
 /* Começo do segundo retangulo */
 .retangulo2 {
     display: flex;
+    flex-direction: column;
     width: 669px;
     height: 1940px;
     border-radius: 50px;
