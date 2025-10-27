@@ -25,7 +25,6 @@ h2 {
     font-size: 35px;
     color: #E5E0D8;
 }
-
 p{
     font-size: 35px;
     font-family: 'SlabOne-Regular.ttf';
@@ -46,14 +45,8 @@ p{
     padding: 0px 20px 0px 0px;
 }
 
-.carrinho a {
-    margin-left: 1000px;
-    padding: 0px 50px 0px 10px;
-    color: #E5E0D8;
-    text-decoration: none;
-}
-
 .perfil a {
+    margin-left: 1050px;
     padding: 0px 50px 0px 10px;
     color: #E5E0D8;
     text-decoration: none;
@@ -124,11 +117,20 @@ p{
 .imagem-pets{
     display: flex;
     margin-left: 200px;
+    margin-bottom:30px;
     gap: 300px;
     width: 100%;
     height: auto;
 }
-/*Fim imagens
+.img-slogans{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 0px;
+    gap: 100px;
+    width: 100%;
+    height: 400px;
+}
+/*Fim imagens*/
 
 /* inicio rodape */
 .rodape-caixa {
