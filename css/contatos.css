@@ -279,12 +279,6 @@ h3 {
     color: #ffffff;
 }
 
-h4 {
-    text-align: justify;
-    color: #ffffff;
-    margin-left: 10px;
-}
-
 .imagem {
     width: 25px;
     height: 25px;
@@ -296,4 +290,5 @@ h4 {
     height: 140px;
     margin-left: 50px;
 }
+
 /* final do rodape */
