@@ -115,12 +115,9 @@ p {
 }
 
 .retangulo1 {
-<<<<<<< HEAD
     display: block;
-=======
     display: flex;
     flex-direction: column;
->>>>>>> 1ca34b170fadfbb636b4d7ca1ffef825f8dc9ad1
     width: 669px;
     height: 1800px;
     border-radius: 50px;
@@ -166,12 +163,9 @@ p {
 /* Fim do primeiro retangulo */
 /* Começo do segundo retangulo */
 .retangulo2 {
-<<<<<<< HEAD
     display: block;
-=======
     display: flex;
     flex-direction: column;
->>>>>>> 1ca34b170fadfbb636b4d7ca1ffef825f8dc9ad1
     width: 669px;
     height: 1800px;
     border-radius: 50px;
