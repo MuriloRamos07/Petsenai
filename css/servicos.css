@@ -167,16 +167,26 @@ p {
     position: absolute;
     width: 300px;
     height: 300px;
-    margin: 10px 0px 0px 260px;
+    margin: 10px 0px 0px 100px;
+    border-radius: 50px;
+}
+
+.img-adestramento {
+    display: flex;
+    justify-items: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px 0px 0px 600px;
     border-radius: 50px;
 }
 
 .img-banho {
     display: flex;
     justify-items: center;
+    position: absolute;
     width: 300px;
     height: 300px;
-    margin: 10px 0px 100px 900px;
+    margin: 10px 0px 0px 1100px;
     border-radius: 50px;
 }
 
@@ -186,26 +196,7 @@ p {
     position: absolute;
     width: 300px;
     height: 300px;
-    margin: 10px 0px 0px 260px;
-    border-radius: 50px;
-}
-
-.img-coleira {
-    display: flex;
-    justify-items: center;
-    width: 300px;
-    height: 300px;
-    margin: 10px 0px 100px 900px;
-    border-radius: 50px;
-}
-
-.img-adestramento {
-    display: flex;
-    justify-items: center;
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    margin: 10px 0px 0px 260px;
+    margin: 100px 0px 100px 100px;
     border-radius: 50px;
 }
 
@@ -214,7 +205,17 @@ p {
     justify-items: center;
     width: 300px;
     height: 300px;
-    margin: 10px 0px 100px 900px;
+    margin: 100px 0px 100px 600px;
+    border-radius: 50px;
+}
+
+.img-coleira {
+    display: flex;
+    justify-items: center;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin: 100px 0px 100px 1100px;
     border-radius: 50px;
 }
 /* Fim das imagens */
