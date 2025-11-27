@@ -8,6 +8,10 @@
     src: url(./fonts/Alfa_Slab_One/AlfaSlabOne-Regular.ttf);
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .fonte {
     font-family: 'AlfaSlabOne-Regular';
 }
