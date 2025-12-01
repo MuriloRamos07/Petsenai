@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Tela de Cadastro">
+    <meta name="keywords" content="Cadastro, Usuário">
+    <meta name="author" content="Ricardo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div class="container">
+        <form class="formulario" action="http://localhost:3001/cadastrar" method="POST">
+            <h2>CADASTRO</h2>
+
+            <div class="field">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo*" required>
+            </div>
+            <div class="field">
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" name="cidade" placeholder="Digite a sua cidade*" required>
+            </div>
+            <div class="field">
+                <label for="estado">Estado:</label>
+                <select id="estado" name="estado" required>
+                    <option value="" disabled selected>Selecione o seu estado*</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+            </div>
+            
+            <div class="field">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu Email*" required>
+            </div>
+            <div class="field">
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" placeholder="Digite sua Senha*" required>
+            </div>
+
+            <input class="btnCadastro" type="submit" value="Cadastrar">
+            <a href="index.html" class="voltarLogin">Voltar para Login</a>
+        </form>
+    </div>
+</body>
+</html>
