@@ -31,7 +31,12 @@ p{
     margin-left: 500px;
     color: rgb(44, 42, 42);
 }
-
+p.tipo2{
+    font-size: 20px;
+    font-family: 'SlabOne-Regular.ttf';
+    margin-left: 500px;
+    color: rgb(44, 42, 42);
+}
 .cor-fundo {
     background-color: #E5E0D8;
 }
@@ -129,6 +134,14 @@ p{
     gap: 100px;
     width: 100%;
     height: 400px;
+}
+.img-beneficios{
+    display: flex;
+    margin-left: 140px;
+    margin-top: 0px;
+    gap: 100px;
+    width: 100%;
+    height: 500px;
 }
 /*Fim imagens*/
 
