@@ -115,10 +115,11 @@ p {
 }
 
 .retangulo1 {
+    display: block;
     display: flex;
     flex-direction: column;
     width: 669px;
-    height: 1940px;
+    height: 1800px;
     border-radius: 50px;
     box-shadow: 1px 1px 10px 0px #7d946d;
     background: #809671;
@@ -135,7 +136,10 @@ p {
     background-repeat: no-repeat;
     border-radius: 50px;
     color: white;
+    margin-left: 30px;
     margin-top: 50px;
+    box-shadow: 2px 10px 10px 0px #687b5b;
+    justify-content: center;
 }
 
 .letras{
@@ -159,10 +163,11 @@ p {
 /* Fim do primeiro retangulo */
 /* Começo do segundo retangulo */
 .retangulo2 {
+    display: block;
     display: flex;
     flex-direction: column;
     width: 669px;
-    height: 1940px;
+    height: 1800px;
     border-radius: 50px;
     box-shadow: 1px 1px 10px 0px #7d946d;
     background: #809671;
@@ -179,7 +184,10 @@ p {
     background-repeat: no-repeat;
     border-radius: 50px;
     color: white;
+    margin-left: 30px;
     margin-top: 50px;
+    box-shadow: 2px 10px 10px 0px #687b5b;
+    justify-content: center;
 }
 
 

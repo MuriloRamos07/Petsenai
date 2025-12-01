@@ -1,3 +1,4 @@
+/*Inicio da Página*/
 * {
     padding: 0;
     margin: 0;
@@ -6,6 +7,10 @@
 @font-face {
     font-family: 'AlfaSlabOne-Regular';
     src: url(./fonts/Alfa_Slab_One/AlfaSlabOne-Regular.ttf);
+}
+
+body {
+    overflow-x: hidden;
 }
 
 .fonte {
@@ -279,12 +284,6 @@ h3 {
     color: #ffffff;
 }
 
-h4 {
-    text-align: justify;
-    color: #ffffff;
-    margin-left: 10px;
-}
-
 .imagem {
     width: 25px;
     height: 25px;
@@ -296,4 +295,4 @@ h4 {
     height: 140px;
     margin-left: 50px;
 }
-/* final do rodape */
+/* final do rodape e fim da Página */
