@@ -5,14 +5,14 @@ const routers = express.Router();
 
 // Rota para Cadastrar objeto no Banco de dados
 routers.post("/Cadastrar", async (req, res) => {
-    const { NOME, TELEFONE, EMAIL, ASSUNTO, MENSAGEM } = req.body;
+    const { NOME_COMPLETO, TELEFONE, EMAIL, ASSUNTO, MENSAGEM } = req.body;
 
     const EMPRESA_ID = 1;
 
     console.log(req.body);
 
     try {
-        const cadastro = await funcao.Cadastro(NOME, TELEFONE, EMAIL, ASSUNTO, EMPRESA_ID, MENSAGEM);
+        const cadastro = await funcao.Cadastro(NOME_COMPLETO, TELEFONE, EMAIL, ASSUNTO, MENSAGEM);
 
         console.log(cadastro)
 
