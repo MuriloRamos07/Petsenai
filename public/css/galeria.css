@@ -103,6 +103,7 @@ p {
     padding: 0px 10px 0px 10px;
     font-family: 'SlabOne-Regular.ttf';
 }
+
 .menu-superior ul li:hover {
     display: inline-block;
     position: relative;
@@ -151,7 +152,7 @@ p {
     justify-content: center;
 }
 
-.letras{
+.letras {
     font-family: 'SlabOne-Regular.ttf';
     font-size: 20px;
     margin-top: 15px;
@@ -159,7 +160,7 @@ p {
     text-shadow: 10px 10px 10px 0px rgb(129, 129, 129)
 }
 
-.linhas{
+.linhas {
     width: 607px;
     height: 1px;
     background-color: white;

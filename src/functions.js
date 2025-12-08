@@ -1,10 +1,10 @@
 const conexao = require('./db');
 
 // Função para Cadastro
-module.exports.Cadastro = async (NOME, TELEFONE, EMAIL, ASSUNTO, EMPRESA_ID, MENSAGEM) => {
+module.exports.Cadastro = async (NOME_COMPLETO, TELEFONE, EMAIL, ASSUNTO, MENSAGEM) => {
     try {
-        const [resultado] = await conexao.query("INSERT INTO contato (NOME, TELEFONE, EMAIL, ASSUNTO, EMPRESA_ID, MENSAGEM) VALUES(?,?,?,?,?,?)",
-            [NOME, TELEFONE, EMAIL, ASSUNTO, EMPRESA_ID, MENSAGEM]);
+        const [resultado] = await conexao.query("INSERT INTO contato (NOME_COMPLETO, TELEFONE, EMAIL, ASSUNTO, MENSAGEM) VALUES(?,?,?,?,?)",
+            [NOME_COMPLETO, TELEFONE, EMAIL, ASSUNTO, MENSAGEM]);
 
         return resultado;
     }

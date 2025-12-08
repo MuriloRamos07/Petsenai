@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
 }
+
 /* Fonts */
 @font-face {
     font-family: 'AlfaSlabOne-Regular';
@@ -22,17 +23,20 @@ body {
     font-size: 13px;
 }
 
-@font-face{ 
+@font-face {
     font-family: 'AlegreyaSC-Regular';
     src: url(./fonts/Alegreya_SC/AlegreyaSC-Regular.ttf);
 }
-.fonte2{
+
+.fonte2 {
     font-family: 'AlegreyaSC-Regular';
 }
-.fonte2-form{
+
+.fonte2-form {
     font-family: 'AlegreyaSC-Regular';
     font-size: 13px;
 }
+
 /*Começo do cabeçalho*/
 h1 {
     font-family: 'SlabOne-Regular.ttf';
@@ -101,6 +105,7 @@ header {
 #container {
     background-color: #CEC9C2;
 }
+
 /*fim do cabeçalho*/
 
 /*Inicio menu superior*/
@@ -141,6 +146,7 @@ header {
     text-decoration: none;
     color: white;
 }
+
 /* menu superior fim */
 
 /*Incio da página*/
@@ -294,4 +300,5 @@ h3 {
     height: 140px;
     margin-left: 50px;
 }
+
 /* final do rodape e fim da Página */

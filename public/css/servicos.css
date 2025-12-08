@@ -113,6 +113,7 @@ p {
     text-decoration: none;
     color: white;
 }
+
 /* menu superior fim */
 /* começo do corpo da página */
 /* caixa de texto centralizada */
@@ -160,6 +161,7 @@ p {
     font-size: 25px;
     color: #D1CCC5;
 }
+
 /* imagens da página */
 .img-brinquedos {
     display: flex;
@@ -218,6 +220,7 @@ p {
     margin: 100px 0px 100px 1100px;
     border-radius: 50px;
 }
+
 /* Fim das imagens */
 /* fim do corpo da página */
 /* inicio rodape */
